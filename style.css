@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", serif;
+    transform: smooth;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(207, 205, 208, 0.2);
+}
+.navbar .logo h1{
+    color: rgb(136, 16, 192);
+}
+.navbar .list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.navbar .menu{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(136, 16, 192);
+    position: fixed;
+    right: 10px;
+}
+.list li{
+    list-style: none;
+}
+.navbar a ,.social a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: rgb(136, 16, 192);
+    border-bottom: 2px solid rgb(136, 16, 192);
+}
+.home{
+    height: 90vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255, 255, 255, 0.5)),url(imgs/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .right img{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: dashed 2px rgb(136, 16, 192);
+}
+.home .left{
+    width: 40%;
+    line-height: 30px;
+}
+.home .left h1{
+    line-height: 40px;
+    font-size: 40px;
+}
+.home .left .letter{
+    color: rgb(136, 16, 192);
+}
+.home .left .social i{
+    padding: 15px 0px;
+    font-size: 30px;
+}
+.home .left .social i:hover{
+    color: rgb(136, 16, 192);
+    cursor: pointer;
+}
+.skils .skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+.skils .skills .skil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(136, 16, 192, 0.112);
+    color: rgb(136, 16, 192);
+    padding: 30px;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    transition: ease-in-out 0.5s;
+}
+.skils .skills .skil i{
+    font-size: 50px;
+    padding: 10px;
+}
+.skils .skills .skil h3{
+    text-align: center;
+}
+.skils .skills .skil:hover{
+    background-color: rgb(136, 16, 192);
+    color: white;
+    transform: translateY(-10px);
+}
+.projects .cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+.projects .cards .card ul{
+    padding-left: 15px;
+}
+.projects h1 , .w3d h1, .about h1, .skils h1{
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(136, 16, 192);
+}
+.projects .cards{
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    overflow-x: auto; 
+}
+.projects .card{
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    padding: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(136, 16, 192);
+    box-shadow: 5px 5px 10px rgba(136, 16, 192, 0.2);
+}
+.projects .card img {
+    width: 590px;
+    border-bottom: 1px dashed rgb(136, 16, 192);
+}
+.projects .card .phone{
+    align-self: center;
+    width: 290px;
+    border-bottom: 1px dashed rgb(136, 16, 192);
+}
+.projects .card title{
+    justify-self: center;
+}
+.w3d h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.w3d .scene{
+    border-radius: 3%;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.about{
+    background-color: rgba(136, 16, 192, 0.112);
+}
+.about .content{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about .social i{
+    font-size: 20px;
+}
+.about .social i:hover{
+    cursor: pointer;
+}
+.about p{
+    line-height: 30px;
+}
+.back{
+    display: none;
+}
+.back i{
+    padding: 10px;
+    font-size:40px;
+    color: white;
+    background-color: rgb(136, 16, 192);
+    border-radius: 50%;
+    border: 3px solid white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: all 0.3s ease;
+}
+.back i:hover{
+    background-color: white;
+    color: rgb(136, 16, 192);
+    border: 3px solid rgb(136, 16, 192);
+}
+
+@media only screen and (max-width: 700px){
+    .home{
+        flex-direction: column;
+    }
+    .home .left{
+        width: 90%;
+    }
+    .projects .card{
+        width: 350px;
+    }
+    .projects .card img{
+        width: 350px;
+    }
+    .projects .card .phone{
+        width: 200px;
+    }
+    .about .content{
+        padding: 10px 25px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .about .content .educ{
+        width: 300px;
+    }
+    .w3d .scene{
+        width: 350px;
+    }
+    .navbar .list ul{
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(255, 255, 255);
+        top: 6%;
+        right: -100%;
+        padding: 10px 20px;
+        transition: right 0.4s ease ;
+        border-radius: 0% 0% 0% 5%;
+    }
+    .navbar .menu {
+        display: block;
+    }
+    .navbar .list ul.show{ 
+        right: 0%;
+    }
+    .skils .skills .skil{
+        width: 100px;
+        height: 100px;
+    }
+    .skils .skills{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        gap: 20px;
+        place-items: center;
+    }
+}

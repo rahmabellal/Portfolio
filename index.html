@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="navbar" id="nav">
+        <div class="logo">
+            <h1>Rahma.B</h1>
+        </div>
+        <div class="menu">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#w3d">W3D</a></li>
+                <li><a href="#about">About me</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="home" id="home">
+        <div class="left">
+            <p>Hey , I'm Rahma Bellal 👋</p>
+            <h1><span class="letter">D</span>ata <span class="letter">E</span>ngineering and <span class="letter">W</span>eb <span class="letter">T</span>echnologie student</h1> 
+            <p>At university Farhat Abbas Setif-1 Algeria</p>
+            <p>Interested in Web development and Android apps development..</p>
+            <div class="social">
+                <a href="https://wa.me/213673630984" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.instagram.com/rahma_bellal?igsh=MWt6Zjd5Mzk5eXVlYg%3D%3D&utm_source=qr" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rahma-bellal-43630b307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://github.com/rahmabellal" target="_blank"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+        <div class="right">
+            <img src="imgs/IMG_0730.JPG">
+        </div>
+    </div>
+    <div class="skils">
+        <h1>Skills:</h1>
+        <div class="skills">
+            <div class="skil">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web development</h3>
+            </div>
+            <div class="skil">
+                <i class='bx bxl-android'></i>
+                <h3>Android Apps development</h3>
+            </div>
+            <div class="skil">
+                <i class='bx bx-layout'></i>
+                <h3>UI/UX Design</h3>
+            </div>
+            <div class="skil">
+                <i class='bx bx-shield-quarter'></i>
+                <h3>Web Application Sequirity</h3>
+            </div>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <h1>Projects:</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="imgs/weather.png">
+                <div class="title">
+                    <h2>Weather App</h2>
+                </div>
+                <div class="desc">
+                    <p>Responsive Web application that allows users to view detailed weather information for any location. Users can search manually or use geolocation to get accurate local weather, helping them to plan their activities.</p>
+                </div>
+                <div class="func">
+                    <b>Main functionalities:</b>
+                    <ul>
+                        <li>Display weather details (Temperature, wind, humidity, date, hour...) via manual search or geolocation.</li>
+                        <li>Display a chart of temperature changes throughout the day.</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="tech">
+                    <b>Technologies:</b>
+                    <p>HTML , CSS , JS , Geolocalisation , OpenWeather API</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/med.jpg">
+                <div class="title">
+                    <h2>Med & Pat</h2>
+                </div>
+                <div class="desc">
+                    <p>A web application designed to facilitate the management of patients’electronic medical records, ensuring the security, ease of storage, and efficient use of the records, as well as appointment scheduling.</p>
+                </div>
+                <div class="func">
+                    <b>Main functionalities:</b>
+                    <ul>
+                        <li>Consultation of the list of doctors for patients, and vice versa.</li>
+                        <li>Scheduling of appointments.</li>
+                        <li>Storage of medical records, including prescriptions and medical examinations.</li>
+                        <li>Consultation of a patient’s medical history, including previous visits.</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="tech">
+                    <b>Technologies:</b>
+                    <p>HTML , CSS , JS , PHP</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/event.png" class="phone">
+                <div class="title">
+                    <h2>Event App</h2>
+                </div>
+                <div class="desc">
+                    <p>A mobile application for managing and organizing an event. It includes multiple interfaces for event details, sessions, and speakers. It offers users a wide range of features to help them easily follow and navigate the event.</p>
+                </div>
+                <div class="func">
+                    <b>Main functionalities:</b>
+                    <ul>
+                        <li>Display general information about the event, with dedicated screens for the event details, sessions details and speakers details. </li>
+                        <li>Allow users to register for sessions and save them to their phone calendar.</li>
+                        <li>Open the session location on Google Maps.</li>
+                    </ul>
+                </div>
+                <div class="tech">
+                    <b>Technologies:</b>
+                    <p>Kotlin ,JetPackCompose, Firebase</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3d">
+        <h1>W3D:</h1>
+        <h3>Tp 01: Basic objects</h3>
+        <div class="tp1">
+            <img class="scene" src="imgs/table.jpg">
+            <img class="scene" src="imgs/table2.jpg">
+        </div>
+        <h3>Tp 02: Simple animation</h3>
+        <video controls width="600" class="scene">
+            <source src="imgs/lemon.mp4" type="video/mp4">
+        </video>
+
+    </div>
+    <div class="about" id="about">
+        <h1>About me:</h1>
+        <div class="content">
+            <div class="pesonal">
+                <p><b>Full name:</b> Bellal Rahma</p>
+                <p><b>Date of birth:</b> 17 March 2004</p>
+                <p><b>Address:</b> El-eulma, Setif, Algeria</p>
+                <div class="social">
+                    <b>Social media:</b> 
+                    <a href="https://wa.me/213673630984" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/rahma_bellal?igsh=MWt6Zjd5Mzk5eXVlYg%3D%3D&utm_source=qr" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rahma-bellal-43630b307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                    <a href="https://github.com/rahmabellal" target="_blank"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+            <div class="educ">
+                <p><b>Education:</b></p>
+                <ul>
+                    <li><p><b>2025:</b> Master's 1 degree in Data Engineering and Web Technologies</p></li>
+                    <li><p><b>2024:</b> Bachelor’s degree in Information Systems</p></li>
+                    <li><p><b>2021:</b> scientific baccalaureate</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="back">
+        <a href="#nav"><i  class='bx  bx-up-arrow-alt icon' ></i></a> 
+    </div>
+
+
+    <script>
+        const backBtn = document.querySelector(".back");
+
+        window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+            backBtn.style.display = "block";
+        } else {
+            backBtn.style.display = "none";
+        }
+        });
+
+        var menu = document.querySelector(".menu i");
+        var list = document.querySelector(".list ul");
+        console.log(list);
+        menu.addEventListener('click',()=>list.classList.toggle("show"));
+    </script>
+
+</body>
+</html>
